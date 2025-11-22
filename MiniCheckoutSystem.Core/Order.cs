@@ -1,10 +1,10 @@
 ﻿// =========================
 //  ENCAPSULATION + COMPOSITION: ORDER
 // =========================
-using MiniCheckoutSystem.Discount;
-using MiniCheckoutSystem.Payment;
+using MiniCheckoutSystem.Core.Discount;
+using MiniCheckoutSystem.Core.Payment;
 
-namespace MiniCheckoutSystem;
+namespace MiniCheckoutSystem.Core;
 
 public class Order
 {

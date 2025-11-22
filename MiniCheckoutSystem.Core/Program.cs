@@ -1,7 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-using MiniCheckoutSystem;
-using MiniCheckoutSystem.Discount;
-using MiniCheckoutSystem.Payment;
+﻿using MiniCheckoutSystem.Core;
+using MiniCheckoutSystem.Core.Discount;
+using MiniCheckoutSystem.Core.Payment;
 
 // Runtime polymorphism: both are IPaymentMethod,
 // but behavior differs based on actual type.

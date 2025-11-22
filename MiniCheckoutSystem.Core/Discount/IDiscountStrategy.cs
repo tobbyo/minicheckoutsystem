@@ -1,4 +1,4 @@
-﻿namespace MiniCheckoutSystem.Discount;
+﻿namespace MiniCheckoutSystem.Core.Discount;
 
 // =========================
 //  COMPOSITION: DISCOUNT STRATEGIES

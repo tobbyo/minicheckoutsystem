@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 18
-VisualStudioVersion = 18.0.11217.181 d18.0
+VisualStudioVersion = 18.0.11217.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Order.Core", "Order.Core\Order.Core.csproj", "{9A6D1410-9D57-206D-4630-52AEEEFA8986}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniCheckoutSystem.Core", "MiniCheckoutSystem.Core\MiniCheckoutSystem.Core.csproj", "{9A6D1410-9D57-206D-4630-52AEEEFA8986}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniCheckoutSystem.Core.Tests", "MiniCheckoutSystem.Core.Tests\MiniCheckoutSystem.Core.Tests.csproj", "{C02BD7C7-4BC0-42DF-A2D2-E484AB8A4E80}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{9A6D1410-9D57-206D-4630-52AEEEFA8986}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A6D1410-9D57-206D-4630-52AEEEFA8986}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A6D1410-9D57-206D-4630-52AEEEFA8986}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C02BD7C7-4BC0-42DF-A2D2-E484AB8A4E80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C02BD7C7-4BC0-42DF-A2D2-E484AB8A4E80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C02BD7C7-4BC0-42DF-A2D2-E484AB8A4E80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C02BD7C7-4BC0-42DF-A2D2-E484AB8A4E80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

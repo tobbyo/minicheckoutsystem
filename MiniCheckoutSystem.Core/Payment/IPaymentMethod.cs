@@ -1,4 +1,4 @@
-﻿namespace MiniCheckoutSystem.Payment;
+﻿namespace MiniCheckoutSystem.Core.Payment;
 
 public interface IPaymentMethod
 {
